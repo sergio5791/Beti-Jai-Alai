@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <html>
 
 <header>
@@ -15,36 +17,23 @@
 
 </header>
 
+    <nav >
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Grupo</a>
+              <div class="dropdown-content">
+                <a href="Grupo.html">Historia</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+          </ul>
+    </nav>
 
-<nav>
-    
-    <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-          <a href="Grupo.html">Sobre el grupo</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
-        </div>
-      </div>
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-
-
-    <script>
-        function openNav() {
-          document.getElementById("myNav").style.width = "100%";
-        }
-        
-        function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-        }
-        </script>
-</nav>
-
-
-
+  
 <body>
-    <iframe width="208" height="200" frameborder="0" scrolling="no" src="https://calendar.google.com/calendar/embed?src=es.spain%23holiday%40group.v.calendar.google.com&ctz=Europe%2FMadrid" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    
 
 </body>
 
@@ -52,7 +41,8 @@
     <footer>
     
         <div class="social">
-            <img width="30" height="30"src="img/instagram.png" alt="instagram">
+            <a href="https://www.instagram.com/betijaialai/?hl=es"><img width="30" height="30"src="img/instagram.png" alt="instagram"></a>  
+            <a href="https://www.instagram.com/betijaialai/?hl=es"><img width="30" height="30"src="img/whatsapp.png" alt="whatsapp"></a>
         </div>
     </footer>
 
